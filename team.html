@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team - A3CS Cloud Consulting & IT Services</title>
+    <link rel="stylesheet" href="assets/css/team.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <nav class="team-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="assets/img/logo-a3cs.png" alt="A3CS Logo" class="logo-img">
+                    <span class="logo-text">A3CS</span>
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#services">Services</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Team Hero Section -->
+    <section class="team-hero">
+        <div class="team-hero-content">
+            <h1>Meet Our Team</h1>
+            <p>The expert minds behind A3CS's cloud consulting excellence</p>
+        </div>
+    </section>
+
+    <!-- Team Members Section -->
+    <section class="team-members">
+        <div class="team-container">
+            <!-- Angelo Ribeiro -->
+            <div class="team-member" onclick="openModal('angeloModal')">
+                <div class="member-image">
+                    <div class="member-avatar has-image">
+                        <img src="assets/img/angelo-ribeiro.png" alt="Angelo Ribeiro" onerror="this.style.display='none'; this.parentElement.classList.remove('has-image');">
+                    </div>
+                </div>
+                <div class="member-info">
+                    <h2>Angelo Ribeiro</h2>
+                    <h3>Founder & Cloud Architect</h3>
+                </div>
+            </div>
+
+            <!-- Chris Johnson -->
+            <div class="team-member" onclick="openModal('chrisModal')">
+                <div class="member-image">
+                    <div class="member-avatar">
+                        <span class="avatar-initials">CJ</span>
+                    </div>
+                </div>
+                <div class="member-info">
+                    <h2>Chris Johnson</h2>
+                    <h3>Founder & Cloud Architect</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Angelo Modal -->
+    <div id="angeloModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('angeloModal')">&times;</span>
+            <div class="modal-header">
+                <div class="modal-avatar has-image">
+                    <img src="assets/img/angelo-ribeiro.png" alt="Angelo Ribeiro" onerror="this.style.display='none'; this.parentElement.classList.remove('has-image');">
+                    <span class="avatar-initials">AR</span>
+                </div>
+                <div class="modal-title">
+                    <h2>Angelo Ribeiro</h2>
+                    <h3>Founder & Cloud Architect</h3>
+                </div>
+            </div>
+            <div class="modal-bio">
+                <p>With over 20 years in engineering leadership, Angelo has built and scaled products across banking, fintech, and telecom—industries where reliability, security, and performance are critical.</p>
+                
+                <p>His expertise spans hands-on development, cloud architecture, and strategic technology planning. He has led globally distributed teams through cloud migrations, legacy modernization, and infrastructure scaling.</p>
+                
+                <p>As a MongoDB consultant, Angelo worked with clients including Apple and Carvana through a Canadian consulting firm partnered with MongoDB Inc., providing specialized support in data architecture and performance optimization.</p>
+                
+                <p>Now focused on cloud consulting, he partners with companies of all sizes to optimize architecture, improve system reliability, and accelerate delivery—offering deep technical insight without the overhead of a full-time executive.</p>
+                
+                <p>Based in the U.S., Angelo works with clients worldwide and is fluent in English, Portuguese, and Spanish.</p>
+            </div>
+            <div class="modal-languages">
+                <span class="language-tag">AWS</span>
+                <span class="language-tag">DataBase Specialist</span>
+                <span class="language-tag">Solutions Architect</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chris Modal -->
+    <div id="chrisModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('chrisModal')">&times;</span>
+            <div class="modal-header">
+                <div class="modal-avatar">CJ</div>
+                <div class="modal-title">
+                    <h2>Chris Johnson</h2>
+                    <h3>Founder & Cloud Architect</h3>
+                </div>
+            </div>
+            <div class="modal-bio">
+                <p>Chris's biography and expertise details will be added here.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <section class="team-cta">
+        <div class="cta-container">
+            <h2>Ready to Work With Our Team?</h2>
+            <p>Let's discuss how A3CS can help transform your cloud infrastructure with our expert guidance.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Get Started</a>
+                <a href="#services" class="btn btn-secondary">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">A3CS</div>
+            <div class="footer-links">
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#privacy">Privacy Policy</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 A3CS. All rights reserved. | Cloud Consulting & IT Services</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/team.js"></script>
+</body>
+</html>

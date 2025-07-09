@@ -588,3 +588,24 @@ img{
     opacity: 1;
     transform: translateY(0);
 }
+
+
+.highlight-item p {
+    color: #64748b;
+    font-size: 1rem;
+}
+
+.team-button-container {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 2rem 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#success-message{
+    color: green;
+    font-weight: bold;
+}

@@ -68,6 +68,10 @@
                     <p>Infrastructure designed to scale with your business from startup to enterprise.</p>
                 </div>
             </div>
+
+            <div class="team-button-container fade-in">
+                <a href="team.html" class="btn btn-primary">Meet the Team</a>
+            </div>
         </div>
     </section>
 
@@ -147,29 +151,32 @@
             <h2 class="fade-in">Ready to Transform Your Cloud Infrastructure?</h2>
             <p class="fade-in">Let's discuss how A3CS can help scale your business with expert cloud solutions.</p>
             
-            <form class="contact-form fade-in">
+            <form id="contact-form" class="contact-form fade-in" method="POST" action="https://script.google.com/macros/s/AKfycbz3Z38zhl9iWUzQA3bsBya1qA1Zoqso7ZojI-064TpefvHZ8AZljvwkl3DmPUpyXiAI/exec">
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
+                    <input name="Name" type="text" placeholder="Name" required>
                 </div>
                 
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
+                    <input name="Email" type="email" placeholder="Email" required>
                 </div>
                 
                 <div class="form-group">
                     <label for="company">Company</label>
-                    <input type="text" id="company" name="company">
+                    <input name="Company" type="text" placeholder="Company" name="company">
                 </div>
                 
                 <div class="form-group">
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Tell us about your cloud consulting needs..." required></textarea>
+                    <textarea id="Message" name="Message" placeholder="Tell us about your cloud consulting needs..." required></textarea>
                 </div>
                 
                 <button type="submit" class="btn btn-primary">Send Message</button>
             </form>
+            <div id="success-message" class="hidden">
+                Message Sent! We are going to be in touch soon!
+            </div>
         </div>
     </section>
 
