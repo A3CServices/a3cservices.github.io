@@ -52,8 +52,8 @@
             <!-- Chris Johnson -->
             <div class="team-member" onclick="openModal('chrisModal')">
                 <div class="member-image">
-                    <div class="member-avatar">
-                        <span class="avatar-initials">CJ</span>
+                    <div class="member-avatar has-image">
+                        <img src="assets/img/chris-johnson.jpeg" alt="Chris Johnson" onerror="this.style.display='none'; this.parentElement.classList.remove('has-image');">
                     </div>
                 </div>
                 <div class="member-info">
@@ -103,7 +103,10 @@
         <div class="modal-content">
             <span class="close" onclick="closeModal('chrisModal')">&times;</span>
             <div class="modal-header">
-                <div class="modal-avatar">CJ</div>
+                <div class="modal-avatar has-image">
+                    <img src="assets/img/chris-johnson.jpeg" alt="Chris Johnson" onerror="this.style.display='none'; this.parentElement.classList.remove('has-image');">
+                    <span class="avatar-initials">AR</span>
+                </div>
                 <div class="modal-title">
                     <h2>Chris Johnson</h2>
                     <h3>Founder & Cloud Architect</h3>
